@@ -7,7 +7,7 @@ class LoyaltyProgramPage(ft.Column):
         self.alignment = ft.MainAxisAlignment.CENTER
         self.horizontal_alignment = ft.CrossAxisAlignment.CENTER
         self.controls = [
-            ft.Image(src="assets/transparent_circle.png", width=150, height=150, fit=ft.ImageFit.CONTAIN),
+            ft.Image(src="https://github.com/xorgonix/flet_signal/blob/main/my-app/assets/transparent_circle.png?raw=true", width=150, height=150, fit=ft.ImageFit.CONTAIN),
             ft.Text("Welcome to Signal Brewery Loyalty Program", size=24, weight=ft.FontWeight.BOLD),
             ft.Text("Earn points for every purchase and get exclusive rewards!", size=18),
             ft.Divider(),

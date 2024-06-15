@@ -7,7 +7,7 @@ class BeerPage(ft.Column):
         self.alignment = ft.MainAxisAlignment.CENTER
         self.horizontal_alignment = ft.CrossAxisAlignment.CENTER
         self.controls = [
-            ft.Image(src="assets/transparent_circle.png", width=150, height=150, fit=ft.ImageFit.CONTAIN),
+            ft.Image(src="https://github.com/xorgonix/flet_signal/blob/main/my-app/assets/transparent_circle.png?raw=true", width=150, height=150, fit=ft.ImageFit.CONTAIN),
 
             ft.Text("Our Beers", size=24, weight=ft.FontWeight.BOLD),
             ft.Text("Discover our variety of craft beers:", size=18),
